@@ -1,0 +1,65 @@
+## May 17, 2023, First homework assignment: a Blog post.
+## 1. What do you think being a data scientist is about?
+## 2. What do you see as the major duties and/or knowledge areas?
+## 3. What differences/similarities do you see between data scientists and statisticians?
+## 4. How do you view yourself in relation to these two areas?
+
+1) I think being a data scientist is similar to being an applied statistician.  There is a certain set of skills and
+abilities that seems to expected of data scientists.  These include proficiency with statistical software but also
+communication skills.
+
+2) Duties include data analysis, communication of "learnings" or inferences, serving as a bridge between data and
+end-users, managers perhaps.  These duties are likely to involve data processing, modelling and visualization and
+documentation.
+
+3) I am still not clear on the distinction between data scientists and statisticians.  Perhaps data scientists have
+more breadth and statisticians more depth, though that is a shallow (ha!) characterization.  In preparing to teach
+ST558, I have learned that there are a great many tools used by data scientists, where proficiency is not required
+among statisticians.
+
+4) I am a statistician.  I have spent 1/3 of my career helping people analyze their data and disseminate conclusions
+in the form of peer-reviewed journal articles.
+
+Here are some notes I took while reading the assigned discussion papers about data science:
+
+Andrew Zola's blog comparing Machine Learning (ML) and Data Science.
+One sentence claiming to differentiate the two is the following:
+"a data scientist does the statistical analysis required to determine which machine learning approach to use, then they model 
+the algorithm and prototype it for testing.  At that point, a machine learning engineer takes the prototyped model and makes 
+it work in a production environment at scale."
+
+The Simplilearn article attempts to define and differentiate the positions of Data
+Scientist and Data Analyst.  
+
+In defining data science, it cites Hugh Conway's Venn diagram depicting the intersection of 
+1) A: Math and Statistics knowledge
+2) B: Substantive Expertise
+3) C: Hacking skills.
+Data science is defined as the intersection A \cap B \cap C.
+The region (B \cap C \cap A') where ' denotes complement, is labelled "danger zone!"  I suppose that this implies that A is essential and that working without it could do more harm than good.
+Another diagram lists the following skills for data scientists:
+* knowledge of Machine Learning (ML)
+* knowledge of programming languages R, Python, SAS, Scala
+* hands-on experience w SQL database coding
+* ability to work w unstructured data (eg video, social media)
+* ability to understand analytical functions (I don't know what this means.)
+
+To differentiate the data scientist and data analysts, the article weakly defines the former as one who creates questions and the latter as one who answers existing questions.
+
+In yet another in a series of diagrams, I found it interesting that statistics and machine learning had an empty intersection.  That is disheartening, as both involve
+analysis of data for inference about, and predictions in, the populations from which the data were sampled.
+
+From the article in "The Signal:" Nate Silver says data scientist is a "sexed-up term for a statistician."  I heard the same approximate characterization from a senior faculty member in a recent discussion.
+Even data scientists themselves, or those with those titles at their workplaces, are not clear on what is entailed
+
+"Statistics is a big part of data science...  <which> brings together statistics, programming skills and product knowledge."   He goes on to say the work their data scientists do requires strength in statistics, but is applied and not theoretical.
+
+Using the ignominious Facebook newsfeed as an example, a single user's usage and network history could be given to a statistician who could infer important associations and 
+make suggestions and recommendations about what news links might be of interest, but may be less likely to be able to code that as an efficient algorithm that scales and works
+in the time it takes a page to load.   
+
+Product knowledge : "a bridge between the data and what a product manager cares about"
+
+Bridge programming and statistics and also bridge statistics and product
+
+Not everyone that claims the title of data scientist has earned it or can even define it!
