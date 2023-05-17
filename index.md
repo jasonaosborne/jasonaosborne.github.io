@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I am a statistics professor and hope to use github to develop software with application in sports.  I am hopeful that github facilitates work with collaborators.
