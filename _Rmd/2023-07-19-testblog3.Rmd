@@ -17,7 +17,7 @@ Making sure I can images to appear correctly in my blogs
 
 
 
-```{r iris, echo=TRUE}
+```{r iris, echo=TRUE,message=FALSE}
 library(GGally)
 ggpairs(iris)
 ```
@@ -26,7 +26,7 @@ BTW, the render code to generate the .md file is shown below, but not
 executed when this file is knitted/rendered.
 ```{r render, eval=FALSE, echo=TRUE}
 library(rmarkdown)
-rmarkdown::render("2023-07-19-testblog3",
+rmarkdown::render("2023-07-19-testblog3.Rmd",
                   output_format="github_document",output_dir="../_posts/",
                   output_options=list(keep_html=FALSE)) 
 ```
